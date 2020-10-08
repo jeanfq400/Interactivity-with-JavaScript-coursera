@@ -1,3 +1,9 @@
+/* Given the HTML and CSS code for a form with both shipping and billing information, write the JavaScript that can set and clear the fields in Billing Information.
+
+The code is provided here:
+
+http://codepen.io/ColleenEMc/pen/qbZmwJ*/ 
+
 function billingFunction(){
 	var shipname = document.getElementById("shippingName").value;
 	var shipzip = document.getElementById("shippingZip").value;
